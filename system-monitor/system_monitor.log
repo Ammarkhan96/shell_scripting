@@ -1,0 +1,25 @@
+Monitoring System Resource...
+Timestamp: Wed Mar 12 02:45:56 PM PKT 2025
+CPU Usage:
+CPU Load: 7.4%
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           3.3Gi       2.6Gi       121Mi       328Mi       1.1Gi       692Mi
+Swap:          4.0Gi       2.3Gi       1.7Gi
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           336M  3.0M  333M   1% /run
+/dev/nvme0n1p2  233G   50G  172G  23% /
+tmpfs           1.7G   49M  1.6G   3% /dev/shm
+efivarfs        384K  304K   76K  81% /sys/firmware/efi/efivars
+tmpfs           5.0M   12K  5.0M   1% /run/lock
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-udev-load-credentials.service
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-tmpfiles-setup-dev-early.service
+tmpfs           1.7G   19M  1.7G   2% /tmp
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-tmpfiles-setup-dev.service
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-sysctl.service
+/dev/nvme0n1p1  1.1G  6.2M  1.1G   1% /boot/efi
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-tmpfiles-setup.service
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs           336M  124K  336M   1% /run/user/1000
