@@ -1,0 +1,10 @@
+#!/bin/bash
+
+SRC="/home/fpe/Desktop"
+DEST="/backup"
+FILE="$DEST/backup_$(date +"%Y%m%d_%H%M%S").tar.gz"
+
+mkdir -p "$DEST"
+tar -czf "$FILE" "$SRC" && echo "✅ Backup: $FILE" || { echo "❌ Failed!"; exit 1; }
+
+find "$DEST" -type f -name "*.tar.gz" -mtime +7 -delete && echo "🗑️ Old backups cleaned!"
